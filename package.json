@@ -1,0 +1,23 @@
+{
+  "name": "api-playwrightts",
+  "version": "1.0.0",
+  "description": "API automation starter powered by Playwright + TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "PWDEBUG=console playwright test",
+    "test:report": "playwright show-report",
+    "prepare": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  }
+}
