@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const rawBaseUrl = process.env.API_BASE_URL ?? 'https://reqres.in';
+const rawBaseUrl = process.env.API_BASE_URL ?? 'https://restful-booker.herokuapp.com';
 const API_BASE_URL = rawBaseUrl.endsWith('/') ? rawBaseUrl : `${rawBaseUrl}/`;
 const defaultHeaders: Record<string, string> = {
   Accept: 'application/json',
